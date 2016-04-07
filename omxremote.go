@@ -50,6 +50,16 @@ var (
 		"volume_up":         "+",            // Change volume by +3dB
 		"volume_down":       "-",            // Change volume by -3dB
 		"subtitles":         "s",            // Enable/disable subtitles
+		"prev_audio_stream": "j",            // Previous audio stream
+		"next_audio_stream": "k",            // Next audio stream
+		"prev_sub_stream":   "n",            // Previous subtitle stream
+		"next_sub_stream":   "m",            // Next subtitle stream
+		"prev_chapter":      "i",            // Previous chapter
+		"next_chapter":      "o",            // Next chapter
+		"dec_sub_delay":     "d",            // Decrease subtitle delay
+		"inc_sub_delay":     "f",            // Increase subtitle delay
+		"rewind":            "<",            // Rewind
+		"fast_forward":      ">",            // Fast forward
 		"seek_back":         "\x1b\x5b\x44", // Seek -30 seconds
 		"seek_back_fast":    "\x1b\x5b\x42", // Seek -600 second
 		"seek_forward":      "\x1b\x5b\x43", // Seek +30 second
